@@ -294,13 +294,13 @@ function buildAPIsJSONNavigator(apisJSON)
 			  		{
 						$html = '<tr>';
 						$html = $html + '<td colspan="2" style="padding-top: 5px; padding-bottom: 5px;">';
-						$html = $html + '<span style="font-size:20px;">';
+						$html = $html + '<span style="font-size:16px;">';
 						$html = $html + '<a href="' + $apiHumanURL + '"><strong>' + $apiName + '</strong></a>';
 						$html = $html + '</span>';
 						$html = $html + '</td>';
 
 						$html = $html + '<td style="padding-top: 5px; padding-bottom: 5px;">';
-						$html = $html + '<a href="' + $Documentation_URL + '"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-swagger-round.png" width="50" /></a>';
+						$html = $html + '<a href="' + $Documentation_URL + '"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png" width="50" /></a>';
 						$html = $html + '</td>'
 
 						$html = $html + '<td style="padding-top: 5px; padding-bottom: 5px;">';
