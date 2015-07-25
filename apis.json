@@ -64,7 +64,7 @@
 		}]
 	},
 	{
-		"name": "EPA Comprehensive Environmental Response, Compensation, and Liability Information System API",
+		"name": "EPA Environmental Response, Compensation, and Liability Information API",
 		"description": "The Comprehensive Environmental Response, Compensation, and Liability Information System provides information about Superfund (cleaning/removal of hazardous waste) sites, from discovery to their listing on the National Priorities list.",
 		"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/280px-Environmental_Protection_Agency_logo.svg.png",
 		"humanURL": "http://www.epa.gov/enviro/facts/cerclis/model.html",
