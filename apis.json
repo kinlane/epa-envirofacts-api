@@ -1,7 +1,7 @@
 
 {
 	"name": "Environmental Protection Agency",
-	"description": "The United States Environmental Protection Agency (EPA or sometimes USEPA) is an agency of the U.S. federal government which was created for the purpose of protecting human health and the environment by writing and enforcing regulations based on laws passed by Congress. The EPA was proposed by President Richard Nixon and began operation on December 2, 1970, after Nixon signed an executive order. The order establishing the EPA was ratified by committee hearings in the House and Senate. The agency is led by its Administrator, who is appointed by the president and approved by Congress. The current administrator is Gina McCarthy. The EPA is not a Cabinet department, but the administrator is normally given cabinet rank.",
+	"description": "The United States Environmental Protection Agency (EPA or sometimes USEPA) is an agency of the U.S. federal government which was created for the purpose of protecting human health and the environment by writing and enforcing regulations based on laws passed by Congress. The Envirofacts information comes from a variety of databases and  locations. Each of these databases contains information about facilities that are required to report activity to a state or federal system.",
 	"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/280px-Environmental_Protection_Agency_logo.svg.png",
 	"tags": ["federal government"],
 	"created": "2015-07-24",
