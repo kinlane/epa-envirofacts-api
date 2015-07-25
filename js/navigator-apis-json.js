@@ -293,7 +293,7 @@ function buildAPIsJSONNavigator(apisJSON)
       if($Swagger_URL != '')
 			  		{
 						$html = '<tr>';
-						$html = $html + '<td colspan="2" style="padding-top: 5px; padding-bottom: 5px;">';
+						$html = $html + '<td colspan="2" style="border-top: 1px solid #000; border-bottom: 1px solid #000; padding: 5px 5px 5px 5px;">';
 						$html = $html + '<span style="font-size:16px;">';
 						$html = $html + '<a href="' + $apiHumanURL + '"><strong>' + $apiName + '</strong></a>';
 						$html = $html + '</span>';
