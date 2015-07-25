@@ -266,13 +266,13 @@ function buildAPIsJSONNavigator(apisJSON)
 
     howmanyapis = apisJSONAPIs.length;
 
-		html = '<tr>';
-		html = html + '<td colspan="2" style="padding-top: 5px; padding-bottom: 5px;">';
-		html = html + '<span style="font-size:22px; font-weight: bold;">';
-		html = html + '<strong>APIs</strong>';
-		html = html + '</span>';
-		html = html + '</td>';
-		html = html + '</tr>';
+		$html = '<tr>';
+		$html = $html + '<td colspan="2" style="padding-top: 5px; padding-bottom: 5px;">';
+		$html = $html + '<span style="font-size:22px; font-weight: bold;">';
+		$html = $html + '<strong>APIs</strong>';
+		$html = $html + '</span>';
+		$html = $html + '</td>';
+		$html = $html + '</tr>';
 		$('#jsonNavigatorTable').append($html);
 
 		$html = '</tr>';
