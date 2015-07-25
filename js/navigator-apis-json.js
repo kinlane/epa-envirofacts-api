@@ -316,11 +316,11 @@ function buildAPIsJSONNavigator(apisJSON)
 						$html = $html + '</td>';
 
 						$html = $html + '<td style="">';
-						$html = $html + '<a href="' + $Documentation_URL + '"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png" width="25" /></a>';
+						$html = $html + '<a href="' + $Documentation_URL + '"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png" width="35" /></a>';
 						$html = $html + '</td>'
 
 						$html = $html + '<td style="">';
-						$html = $html + '<a href="' + $Swagger_URL + '"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-swagger-round.png" width="25" /></a>';
+						$html = $html + '<a href="' + $Swagger_URL + '"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-swagger-round.png" width="35" /></a>';
 						$html = $html + '</td>';
 
 						$html = $html + '</tr>';
