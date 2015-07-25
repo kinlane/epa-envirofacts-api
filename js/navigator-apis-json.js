@@ -266,6 +266,9 @@ function buildAPIsJSONNavigator(apisJSON)
 
     howmanyapis = apisJSONAPIs.length;
 
+		$html = APIJSONNavigatorGetIncludeTitle('APIs',1);
+		$('#jsonNavigatorTable').append($html);
+
      $.each(apisJSONAPIs, function(apiKey, apiVal) {
 
      	 $apiName = apiVal['name'];
