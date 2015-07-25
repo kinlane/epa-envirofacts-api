@@ -22,7 +22,8 @@ overview: true
     url: $url,
     dom_id: "swagger-ui-container",
     supportedSubmitMethods: ['get'],
-    docExpansion: 'full',
+    docExpansion: 'list',
+    validatorUrl: null,
     onComplete: function(swaggerApi, swaggerUi){
 
       var textboxes = document.getElementsByTagName("input");
