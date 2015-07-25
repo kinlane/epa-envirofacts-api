@@ -316,7 +316,7 @@ function buildAPIsJSONNavigator(apisJSON)
 						$html = $html + '</td>';
 
 						$html = $html + '<td style="">';
-						$html = $html + '<a href="/docs.html?swagger=' + $$Swagger_URL + '"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png" width="35" /></a>';
+						$html = $html + '<a href="/docs.html?swagger=' + $Swagger_URL + '"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png" width="35" /></a>';
 						$html = $html + '</td>'
 
 						$html = $html + '<td style="">';
