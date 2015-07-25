@@ -269,6 +269,13 @@ function buildAPIsJSONNavigator(apisJSON)
 		$html = APIJSONNavigatorGetIncludeTitle('APIs',1);
 		$('#jsonNavigatorTable').append($html);
 
+		$html = $html + '</tr>';
+		$html = $html + '<tr>';
+		$html = $html + '<td colspan="3"><hr style="padding: 0px; margin:0px;" /></td>';
+		$html = $html + '</tr>';
+
+		$('#jsonNavigatorTable').append($html);
+
      $.each(apisJSONAPIs, function(apiKey, apiVal) {
 
      	 $apiName = apiVal['name'];
@@ -296,24 +303,25 @@ function buildAPIsJSONNavigator(apisJSON)
       if($Swagger_URL != '')
 			  		{
 						$html = '<tr>';
-						$html = $html + '<td style="padding: 5px 5px 5px 5px;">';
+						$html = $html + '<td style="">';
 						$html = $html + '<span style="font-size:16px;">';
 						$html = $html + '<a href="' + $apiHumanURL + '"><strong>' + $apiName + '</strong></a>';
 						$html = $html + '</span>';
 						$html = $html + '</td>';
 
-						$html = $html + '<td style="padding-top: 5px; padding-bottom: 5px;">';
+						$html = $html + '<td style="">';
 						$html = $html + '<a href="' + $Documentation_URL + '"><img src="http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-list.png" width="25" /></a>';
 						$html = $html + '</td>'
 
-						$html = $html + '<td style="padding-top: 5px; padding-bottom: 5px;">';
+						$html = $html + '<td style="">';
 						$html = $html + '<a href="' + $Swagger_URL + '"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-swagger-round.png" width="25" /></a>';
 						$html = $html + '</td>';
 
 						$html = $html + '</tr>';
 						$html = $html + '<tr>';
-						$html = $html + '<td colspan="3"><hr /></td>';
+						$html = $html + '<td colspan="3"><hr style="padding: 0px; margin:0px;" /></td>';
 						$html = $html + '</tr>';
+
 						$('#jsonNavigatorTable').append($html);
 						}
 
