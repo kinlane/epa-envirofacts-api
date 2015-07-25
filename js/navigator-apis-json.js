@@ -82,7 +82,7 @@ function APIJSONNavigatorGetHeaderCell(name,description,url,image,apijsonurl)
 function APIJSONNavigatorGetHeader(name,description,url,image,apijsonurl)
 	{
     html = '<tr>';
-    html = html + '<td align="left" valign="top" colspan="2" id="apisjsonHeaderCell">';
+    html = html + '<td align="left" valign="top" colspan="3" id="apisjsonHeaderCell">';
     html = html + '<a href="' + url + '" title="' + name + '"><img src="' + image + '" width="100" align="left" style="padding: 15px;" /></a>';
 
     html = html + '<a href="' + url + '" style="color: #000; font-size: 22px; text-decoration: none;" title="' + name + '"><strong>' + name + '</strong></a>';
@@ -293,7 +293,7 @@ function buildAPIsJSONNavigator(apisJSON)
       if($Swagger_URL != '')
 			  		{
 						$html = '<tr>';
-						$html = $html + '<td colspan="2" style="border-top: 1px solid #000; border-bottom: 1px solid #000; padding: 5px 5px 5px 5px;">';
+						$html = $html + '<td style="padding: 5px 5px 5px 5px;">';
 						$html = $html + '<span style="font-size:16px;">';
 						$html = $html + '<a href="' + $apiHumanURL + '"><strong>' + $apiName + '</strong></a>';
 						$html = $html + '</span>';
@@ -307,6 +307,9 @@ function buildAPIsJSONNavigator(apisJSON)
 						$html = $html + '<a href="' + $Swagger_URL + '"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-swagger-round.png" width="25" /></a>';
 						$html = $html + '</td>';
 
+						$html = $html + '</tr>';
+						$html = $html + '<tr>';
+						$html = $html + '<td colspan="3"><hr /></td>';
 						$html = $html + '</tr>';
 						$('#jsonNavigatorTable').append($html);
 						}
