@@ -39,7 +39,7 @@
 		},
 		{
 			"type": "Swagger",
-			"url": "http://theapistack.com/data/environmental-protection-agency/epa-air-facility-system-afs-api-swagger.json"
+			"url": "/swagger/epa-air-facility-system-afs-api-swagger.json"
 		}],
 		"contact": [{
 			"FN": "Environmental Protection Agency"
@@ -57,7 +57,7 @@
 		},
 		{
 			"type": "Swagger",
-			"url": "http://theapistack.com/data/environmental-protection-agency/epa-biennial-report-api-swagger.json"
+			"url": "/swagger/epa-biennial-report-api-swagger.json"
 		}],
 		"contact": [{
 			"FN": "Environmental Protection Agency"
@@ -71,7 +71,7 @@
 		"baseURL": "http://www.epa.gov",
 		"properties": [{
 			"type": "Swagger",
-			"url": "http://theapistack.com/data/environmental-protection-agency/epa-comprehensive-environmental-response-compensation-and-liability-information-system-api-swagger.json"
+			"url": "/swagger/epa-comprehensive-environmental-response-compensation-and-liability-information-system-api-swagger.json"
 		}],
 		"contact": [{
 			"FN": "Environmental Protection Agency"
@@ -89,7 +89,7 @@
 		},
 		{
 			"type": "Swagger",
-			"url": "http://theapistack.com/data/environmental-protection-agency/epa-facility-registry-system-api-swagger.json"
+			"url": "/swagger/epa-facility-registry-system-api-swagger.json"
 		}],
 		"contact": [{
 			"FN": "Environmental Protection Agency"
@@ -107,7 +107,7 @@
 		},
 		{
 			"type": "Swagger",
-			"url": "http://theapistack.com/data/environmental-protection-agency/epa-greenhouse-gas-api-swagger.json"
+			"url": "/swagger/epa-greenhouse-gas-api-swagger.json"
 		}],
 		"contact": [{
 			"FN": "Environmental Protection Agency"
@@ -125,7 +125,7 @@
 		},
 		{
 			"type": "Swagger",
-			"url": "http://theapistack.com/data/environmental-protection-agency/epa-integrated-grants-management-system-api-swagger.json"
+			"url": "/swagger/epa-integrated-grants-management-system-api-swagger.json"
 		}],
 		"contact": [{
 			"FN": "Environmental Protection Agency"
@@ -143,7 +143,7 @@
 		},
 		{
 			"type": "Swagger",
-			"url": "http://theapistack.com/data/environmental-protection-agency/epa-locational-information-api-swagger.json"
+			"url": "/swagger/epa-locational-information-api-swagger.json"
 		}],
 		"contact": [{
 			"FN": "Environmental Protection Agency"
@@ -161,7 +161,7 @@
 		},
 		{
 			"type": "Swagger",
-			"url": "http://theapistack.com/data/environmental-protection-agency/epa-permit-compliance-system-api-swagger.json"
+			"url": "/swagger/epa-permit-compliance-system-api-swagger.json"
 		}],
 		"contact": [{
 			"FN": "Environmental Protection Agency"
@@ -179,7 +179,7 @@
 		},
 		{
 			"type": "Swagger",
-			"url": "http://theapistack.com/data/environmental-protection-agency/epa-radiation-ambient-monitoring-api-swagger.json"
+			"url": "/swagger/epa-radiation-ambient-monitoring-api-swagger.json"
 		}],
 		"contact": [{
 			"FN": "Environmental Protection Agency"
@@ -197,7 +197,7 @@
 		},
 		{
 			"type": "Swagger",
-			"url": "http://theapistack.com/data/environmental-protection-agency/epa-radiation-information-database-api-swagger.json"
+			"url": "/swagger/epa-radiation-information-database-api-swagger.json"
 		}],
 		"contact": [{
 			"FN": "Environmental Protection Agency"
@@ -215,7 +215,7 @@
 		},
 		{
 			"type": "Swagger",
-			"url": "http://theapistack.com/data/environmental-protection-agency/epa-resource-conservation-and-recovery-act-information-api-swagger.json"
+			"url": "/swagger/epa-resource-conservation-and-recovery-act-information-api-swagger.json"
 		}],
 		"contact": [{
 			"FN": "Environmental Protection Agency"
@@ -233,7 +233,7 @@
 		},
 		{
 			"type": "Swagger",
-			"url": "http://theapistack.com/data/environmental-protection-agency/epa-safe-drinking-water-information-system-api-swagger.json"
+			"url": "/swagger/epa-safe-drinking-water-information-system-api-swagger.json"
 		}],
 		"contact": [{
 			"FN": "Environmental Protection Agency"
@@ -251,7 +251,7 @@
 		},
 		{
 			"type": "Swagger",
-			"url": "http://theapistack.com/data/environmental-protection-agency/epa-toxics-release-inventory-api-swagger.json"
+			"url": "/swagger/epa-toxics-release-inventory-api-swagger.json"
 		}],
 		"contact": [{
 			"FN": "Environmental Protection Agency"
