@@ -1,0 +1,40 @@
+---
+layout: default
+title: Audio
+overview: true
+---
+
+<div class="swagger-section">
+
+<div id="message-bar" class="swagger-ui-wrap">&nbsp;</div>
+<div id="swagger-ui-container" class="swagger-ui-wrap"></div>
+
+</div>
+<p><br /></p>
+
+<script type="text/javascript">
+
+  var url = "http://theapistack.com/data/environmental-protection-agency/epa-air-facility-system-afs-api-swagger.json";
+
+  window.swaggerUi = new SwaggerUi({
+    url: url,
+    dom_id: "swagger-ui-container",
+    supportedSubmitMethods: ['get'],
+    onComplete: function(swaggerApi, swaggerUi){
+
+      var textboxes = document.getElementsByTagName("input");
+
+      $('pre code').each(function(i, e) {
+        hljs.highlightBlock(e)
+      });
+
+    },
+    onFailure: function(data) {
+      log("Unable to Load SwaggerUI");
+    },
+    docExpansion: "none",
+    sorter : "alpha"
+  });
+
+  window.swaggerUi.load();
+</script>
